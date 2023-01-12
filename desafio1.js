@@ -36,6 +36,3 @@ class ProductManager {
 }
 
 const productos = new ProductManager()
-
-console.log(productos.getProduct());
-console.log(productos.addProduct({code:1}));
